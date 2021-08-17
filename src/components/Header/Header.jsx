@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Header.css";
 
 const Header = ({ headTitle, headerExpanded }) => {
-  // console.log(props);
+  console.log(props);
   //{ headTitle, headerExpanded } is distructing to convert props.headTitle to headtitle and same for other
   return (
     <div className="head-container">
